@@ -33,4 +33,3 @@ tot = 0
 for num in lst:
     tot = tot + int(num)
 print('sum =', tot)
-print(type(tot))

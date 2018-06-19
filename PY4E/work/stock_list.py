@@ -17,7 +17,7 @@ soup = BeautifulSoup(html, "html.parser")
 
 # Retrieve all of the anchor tags
 
-tags = soup('div')
+tags = soup.find('div')
 for tag in tags:
     # Look at the parts of a tag
     print('TAG:', tag)
